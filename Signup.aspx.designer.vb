@@ -23,6 +23,15 @@ Partial Public Class Signup
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''MessageLbl control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents MessageLbl As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Panel1 control.
     '''</summary>
     '''<remarks>
@@ -149,13 +158,13 @@ Partial Public Class Signup
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox5 control.
+    '''dateOfBirthBox control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents dateOfBirthBox As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Panel6 control.

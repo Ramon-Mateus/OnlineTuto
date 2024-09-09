@@ -14,28 +14,32 @@
             <h1 class="text-center">Signup</h1>
             <p class="text-center">&nbsp;</p>
             <p class="text-center">&nbsp;</p>
+
+            <div class="form-group text-center">
+                <asp:Label ID="MessageLbl" runat="server" Text=""></asp:Label>
+            </div>
             
             <div class="form-group row">
                 <asp:Panel ID="Panel1" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label1" runat="server" Text="Fullname"></asp:Label>
-                    <asp:TextBox ID="fullnameBox" runat="server" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="fullnameBox" runat="server" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
 
                 <asp:Panel ID="Panel2" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
-                    <asp:TextBox ID="emailBox" runat="server" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="emailBox" runat="server" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
             </div>
 
             <div class="form-group row">
                 <asp:Panel ID="Panel3" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label3" runat="server" Text="Phone"></asp:Label>
-                    <asp:TextBox ID="phoneBox" runat="server" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="phoneBox" runat="server" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
 
                 <asp:Panel ID="Panel4" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label4" runat="server" Text="Level of education"></asp:Label>
-                    <asp:DropDownList ID="LevelOfEducationList" runat="server" Cssclass="form-control">
+                    <asp:DropDownList ID="LevelOfEducationList" runat="server" Cssclass="form-control" required="true">
                         <asp:ListItem>Masters</asp:ListItem>
                         <asp:ListItem>University</asp:ListItem>
                         <asp:ListItem>High School</asp:ListItem>
@@ -46,24 +50,24 @@
             <div class="form-group row">
                 <asp:Panel ID="Panel5" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label5" runat="server" Text="Date of birth"></asp:Label>
-                    <asp:TextBox ID="TextBox5" runat="server" TextMode="Date" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="dateOfBirthBox" runat="server" TextMode="Date" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
 
                 <asp:Panel ID="Panel6" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label6" runat="server" Text="Username"></asp:Label>
-                    <asp:TextBox ID="usernameBox" runat="server" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="usernameBox" runat="server" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
             </div>
 
             <div class="form-group row">
                 <asp:Panel ID="Panel7" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label7" runat="server" Text="Password"></asp:Label>
-                    <asp:TextBox ID="passwordBox" runat="server" TextMode="Password" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="passwordBox" runat="server" TextMode="Password" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
 
                 <asp:Panel ID="Panel8" runat="server" CssClass="form-group col-md-6">
                     <asp:Label ID="Label8" runat="server" Text="Confirm password"></asp:Label>
-                    <asp:TextBox ID="passwordConfirmBox" runat="server" TextMode="Password" Cssclass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="passwordConfirmBox" runat="server" TextMode="Password" Cssclass="form-control" required="true"></asp:TextBox>
                 </asp:Panel>
             </div>
 
