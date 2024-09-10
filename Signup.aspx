@@ -73,6 +73,7 @@
 
             <div class="form-group mt-3">
                 <asp:Button ID="SignupBtn" runat="server" Text="Signup" CssClass="btn btn-primary"/>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Login.aspx">Already have an account? Login</asp:HyperLink>
             </div>
         </div>
     </form>
